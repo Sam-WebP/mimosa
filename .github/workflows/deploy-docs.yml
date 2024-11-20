@@ -3,7 +3,7 @@ run-name: Publish Docs to GitHub Pages by @${{ github.actor }}
 on:
   push:
     branches:
-      - master
+      - "*"
     paths:
       - "docs/**"
       - "mkdocs.yml"
