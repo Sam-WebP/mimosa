@@ -1,16 +1,23 @@
-# Welcome to MkDocs
+# Wattle Cloud Platform
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This guide provides comprehensive instructions for both technical and end users.
 
-## Commands
+## Introduction
 
-* `./run mkdocs serve` - Start the live-reloading docs server.
-* `./run mkdocs build` - Build the documentation site.
-* `./run mkdocs -h` - Print help message and exit.
+This user manual provides a step by step guide for the Wattle Platform Web Application, enabling users to:
 
-## Project layout
+- Search for Properties
+- Purchase associated Certificates
+- Manage Property Documents
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Documentation Overview
+
+This documentation is divided into three main sections:
+
+1. **Technical Guide**: Setup and development instructions for technical team members
+2. **User Guide**: Step-by-step instructions for using the platform
+3. **Troubleshooting**: Common issues and their solutions
+
+For technical users, start with the [Installation](technical-guide/installation.md) section to set up your development environment.
+
+For platform users, begin with the [Order Certificate](user-guide/order-certificate.md) guide to learn how to use the platform.
