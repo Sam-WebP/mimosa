@@ -9,7 +9,7 @@ on:
       - "*"
     paths:
       - "docs/**"
-      - "mkdocs.yml"
+      - "docs/mkdocs.yml"
       - ".github/workflows/deploy-docs.yml"
 
 permissions:
@@ -36,4 +36,4 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Build and Publish to GH Pages
-        run: mkdocs gh-deploy --force --clean --verbose
+        run: mkdocs gh-deploy --force --clean --verbose --config-file docs/mkdocs.yml
